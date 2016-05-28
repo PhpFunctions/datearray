@@ -1,9 +1,9 @@
 To get all dates between two dates use the function returnBetweenDates( arg1, arg2 )
 
-Example : 
+#Example : 
 print_r( returnBetweenDates( '12-05-2016', '26-05-2016' ) );
 
-Output : 
+#Output : 
 Array
 (
     [0] => 12-05-2016
@@ -28,10 +28,10 @@ Array
 To get all datee weekly use the function print_r(returndaysBetweenDates( arg1, arg2, arg3 ))
 where arg1 is the starting date, arg2 is the ending date and arg3 is the day (sun,mon,tue,wed,thu,fri,sat)
 
-Example : 
+#Example : 
 print_r(returndaysBetweenDates( '01-05-2016', '01-06-2016', 'tue' ));
 
-Output :
+#Output :
 Array
 (
     [0] => 03-05-2016
@@ -45,10 +45,10 @@ Array
 To get all the dates monthly between two given dates use the function returndatesBetweenDates( arg1, arg2, arg3 )
 where arg1 is the starting date, arg2 is the ending date and arg3 is the date (1 to 31)
 
-Example : 
+#Example : 
 print_r(returndatesBetweenDates( '01-05-2016', '01-12-2016', "5" ));
 
-Output : 
+#Output : 
 Array
 (
     [0] => 05-05-2016
@@ -60,10 +60,10 @@ Array
     [6] => 05-11-2016
 )
 
-Another example : 
+#Another example : 
 print_r(returndatesBetweenDates( '01-05-2016', '01-12-2016', "31" ));
 
-Output : 
+#Output : 
 Array
 (
     [0] => 31-05-2016
@@ -75,10 +75,10 @@ Array
 To get all the dates of a particular date and month from given year use the function print_r(returndatesBetweenmonthsyears( arg1, arg2, arg3, arg4 ))
 where arg1 is the starting date, arg2 is the ending date and arg3 is the date (1 to 31) and arg4 is the month (jan,feb,mar,apr,may,jun,jul,aug,sep,oct,nov,dec)
 
-Example : 
+#Example : 
 print_r(returndatesBetweenmonthsyears( '01-1-1991', '01-01-2017', '5', 'sep' ));
 
-Output :
+#Output :
 (
     [0] => 05-09-1991
     [1] => 05-09-1992
